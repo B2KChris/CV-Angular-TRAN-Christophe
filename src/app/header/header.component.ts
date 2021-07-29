@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  isCollabsed: boolean = true;
   constructor() { }
 
+
   ngOnInit(): void {
+    
   }
 
 }

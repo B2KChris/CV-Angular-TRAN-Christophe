@@ -89,7 +89,7 @@ a, a:hover{
 // @import "./sections/portfolio.scss";
 // @import "./sections/footer.scss";
 
-@charset "UTF-8";
+//@charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v7.0.2 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2021 Start Bootstrap
@@ -274,6 +274,7 @@ strong {
 
 small, .small {
   font-size: 0.875em;
+  color: #0072f5;
 }
 
 mark, .mark {
@@ -22152,11 +22153,11 @@ html {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #f5b400;
+  background-color: #0072f5;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
-  color: #f5b400;
+  color: #0072f5;
 }
 
 .btn-xl {
@@ -22182,7 +22183,7 @@ html {
 }
 
 #mainNav .navbar-brand {
-  color: #f5b400;
+  color: #0072f5;
 }
 
 #mainNav .navbar-nav {
@@ -22346,12 +22347,12 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #1a1a1a;
-  color: #f5b400;
+  background-color: #0000004b;
+  color: #0072f5;
 }
 
 .copyright {
-  background-color: #010101;
+  background-color: #00000063;
 }
 
 .modal-text {
@@ -22757,4 +22758,64 @@ font-style: normal;
 }
 
 
+// Tentative de progress-bar
 
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.container-test{
+
+  background-color: #2f2f2d;
+}
+
+
+// Formulaire de contact
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+ 
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
